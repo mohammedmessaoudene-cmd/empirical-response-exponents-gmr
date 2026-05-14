@@ -6,7 +6,7 @@ authors:
     given-names: "Mohammed"
     orcid: "https://orcid.org/0009-0007-4665-2548"
 date-released: "2026-05-14"
-version: "0.1.1"
+version: "0.1.2"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/mohammedmessaoudene-cmd/empirical-response-exponents-gmr"
 abstract: "A channel-aware response-exponent analysis of galaxy rotation curves combining SPARC, direct LSB mass models, and LITTLE THINGS proxy/vector-recovered evidence."
