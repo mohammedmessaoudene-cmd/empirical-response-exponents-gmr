@@ -9,7 +9,7 @@
       "affiliation": "Faculty of Sciences, Belhadj Bouchaib University of Ain Temouchent"
     }
   ],
-  "description": "Source package for an arXiv-style preprint on channel-aware response exponents and fixed Geometric-Medium Response diagnostics in galaxy rotation curves. The package keeps direct component evidence, proxy evidence, and vector-recovered LITTLE THINGS evidence explicitly separated.",
+  "description": "Files accompanying a preprint on channel-aware response exponents and fixed Geometric-Medium Response diagnostics in galaxy rotation curves. Direct component evidence, proxy evidence, and vector-recovered LITTLE THINGS evidence are kept explicitly separated.",
   "keywords": [
     "galaxy rotation curves",
     "SPARC",
