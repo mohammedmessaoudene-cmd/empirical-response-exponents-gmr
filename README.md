@@ -1,13 +1,13 @@
 # Empirical Response Exponents and Geometric-Medium Information in Galaxy Rotation Curves
 
-This repository contains the source package for the preprint:
+This repository contains the files for the preprint:
 
 **Empirical Response Exponents and Geometric-Medium Information in Galaxy Rotation Curves**  
 Mohammed Messaoudene
 
 ## Status
 
-This is an arXiv-style preprint package prepared for author review and public circulation. It is **not** presented as a final journal-acceptance package.
+This is an arXiv-ready preprint prepared for author review and public circulation. It is **not** presented as a final journal-accepted version.
 
 The manuscript keeps the claim boundary explicit:
 
@@ -21,10 +21,10 @@ The manuscript keeps the claim boundary explicit:
 - `manuscript/R145_MANUSCRIPT.pdf`: compiled manuscript.
 - `manuscript/R145_MANUSCRIPT.tex`: LaTeX source.
 - `manuscript/R145_REFERENCES.bib`: BibTeX references.
-- `figures/`: figure assets used in the manuscript.
+- `figures/`: figures used in the manuscript.
 - `tables/R142_LT_VECTOR_VALIDATION_TABLE.csv`: LITTLE THINGS vector-validation table.
-- `docs/`: QA, human-style audit, and DeepSeek R142 crosscheck reports.
-- `arxiv_upload/`: arXiv source package materials.
+- `docs/`: brief quality-control note.
+- `arxiv_upload/`: files prepared for arXiv upload.
 
 ## Compile
 
@@ -34,7 +34,7 @@ The manuscript is written in AASTeX 6.3.1. Compile from the repository root so t
 tectonic --outdir manuscript manuscript/R145_MANUSCRIPT.tex
 ```
 
-The `arxiv_upload/R145_ARXIV_SOURCE.zip` file contains a flat arXiv-oriented source package.
+The `arxiv_upload/R145_ARXIV_SOURCE.zip` file contains the TeX, references, figures, and table needed for arXiv upload.
 
 ## Remaining journal-grade work
 

@@ -7,7 +7,7 @@ Recommended metadata:
 - Comments: 6 pages, 9 figures, 3 tables
 - License: CC BY 4.0, if accepted by the submission form
 
-The source package contains:
+The upload archive includes:
 
 - R145_MANUSCRIPT.tex
 - R145_REFERENCES.bib

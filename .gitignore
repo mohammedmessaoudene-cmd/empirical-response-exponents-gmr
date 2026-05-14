@@ -9,6 +9,10 @@
 *.toc
 *.fls
 *.fdb_latexmk
+*_PACKAGE_COMPILE_LOG.txt
+*_PACKAGE_PDF_TEXT.txt
+*_CURRENT_PDF_TEXT.txt
+arxiv_upload/*.pdf
 __pycache__/
 .DS_Store
 Thumbs.db
