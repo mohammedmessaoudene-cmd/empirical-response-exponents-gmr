@@ -1,4 +1,4 @@
-Upload `R145_ARXIV_SOURCE.zip` to arXiv.
+Upload `EMPIRICAL_RESPONSE_EXPONENTS_ARXIV_SOURCE.zip` to arXiv.
 
 Recommended metadata:
 
@@ -9,9 +9,9 @@ Recommended metadata:
 
 The upload archive includes:
 
-- R145_MANUSCRIPT.tex
-- R145_REFERENCES.bib
+- EMPIRICAL_RESPONSE_EXPONENTS_MANUSCRIPT.tex
+- EMPIRICAL_RESPONSE_EXPONENTS_REFERENCES.bib
 - figures/
 - tables/R142_LT_VECTOR_VALIDATION_TABLE.csv
 
-The PDF has already been compiled locally as `manuscript/R145_MANUSCRIPT.pdf`.
+The PDF has already been compiled locally as `manuscript/EMPIRICAL_RESPONSE_EXPONENTS_MANUSCRIPT.pdf`.

@@ -18,9 +18,9 @@ The manuscript keeps the claim boundary explicit:
 
 ## Repository contents
 
-- `manuscript/R145_MANUSCRIPT.pdf`: compiled manuscript.
-- `manuscript/R145_MANUSCRIPT.tex`: LaTeX source.
-- `manuscript/R145_REFERENCES.bib`: BibTeX references.
+- `manuscript/EMPIRICAL_RESPONSE_EXPONENTS_MANUSCRIPT.pdf`: compiled manuscript.
+- `manuscript/EMPIRICAL_RESPONSE_EXPONENTS_MANUSCRIPT.tex`: LaTeX source.
+- `manuscript/EMPIRICAL_RESPONSE_EXPONENTS_REFERENCES.bib`: BibTeX references.
 - `figures/`: figures used in the manuscript.
 - `tables/R142_LT_VECTOR_VALIDATION_TABLE.csv`: LITTLE THINGS vector-validation table.
 - `docs/`: brief quality-control note.
@@ -31,10 +31,10 @@ The manuscript keeps the claim boundary explicit:
 The manuscript is written in AASTeX 6.3.1. Compile from the repository root so the `figures/` paths resolve:
 
 ```bash
-tectonic --outdir manuscript manuscript/R145_MANUSCRIPT.tex
+tectonic --outdir manuscript manuscript/EMPIRICAL_RESPONSE_EXPONENTS_MANUSCRIPT.tex
 ```
 
-The `arxiv_upload/R145_ARXIV_SOURCE.zip` file contains the TeX, references, figures, and table needed for arXiv upload.
+The `arxiv_upload/EMPIRICAL_RESPONSE_EXPONENTS_ARXIV_SOURCE.zip` file contains the TeX, references, figures, and table needed for arXiv upload.
 
 ## Remaining journal-grade work
 
