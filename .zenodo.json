@@ -1,0 +1,26 @@
+{
+  "title": "Empirical Response Exponents and Geometric-Medium Information in Galaxy Rotation Curves",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Messaoudene, Mohammed",
+      "orcid": "0009-0007-4665-2548",
+      "affiliation": "Faculty of Sciences, Belhadj Bouchaib University of Ain Temouchent"
+    }
+  ],
+  "description": "Source package for an arXiv-style preprint on channel-aware response exponents and fixed Geometric-Medium Response diagnostics in galaxy rotation curves. The package keeps direct component evidence, proxy evidence, and vector-recovered LITTLE THINGS evidence explicitly separated.",
+  "keywords": [
+    "galaxy rotation curves",
+    "SPARC",
+    "LITTLE THINGS",
+    "low surface brightness galaxies",
+    "response exponent",
+    "dark matter phenomenology",
+    "astrostatistics"
+  ],
+  "license": "cc-by-4.0",
+  "version": "R145",
+  "language": "eng",
+  "communities": []
+}

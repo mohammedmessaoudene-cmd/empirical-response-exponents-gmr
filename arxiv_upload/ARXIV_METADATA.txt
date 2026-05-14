@@ -1,0 +1,12 @@
+Title: Empirical Response Exponents and Geometric-Medium Information in Galaxy Rotation Curves
+
+Authors: Mohammed Messaoudene
+
+Primary category: astro-ph.GA
+
+Secondary categories: astro-ph.CO
+
+Comments: 6 pages, 9 figures, 3 tables. Preprint for human expert review; direct, proxy, and vector-recovered evidence tiers are kept separate.
+
+Abstract:
+Galaxy rotation curves measure a single radial acceleration, but that scalar need not come from a single physical channel. I use a channel-aware response framework in which the Newtonian baryonic source and the inferred dark or geometric response are distinct contributions projected onto the observed rotation curve. The parent form introduces an internal alignment kappa=cos(theta_int) and a response amplitude g_chi=A_chi g_N^p; the empirical tests use the projected closure g_tot=g_N+A_eff g_N^p. This response-exponent view is compared with a fixed Geometric-Medium Response prescription tested on SPARC. GMR contains a square-root response core, although a pure square-root control remains slightly better on the main SPARC equal-weight RMSE benchmark. Direct LSB mass models favor a fixed p approximately 0.298 comparison branch, whereas LITTLE THINGS proxy and validated vector-recovered subsets lean toward p=0.5 without decisive significance. These results do not define a universal exponent and do not solve the dark-sector problem. They instead show that the projected response branch is sensitive to data set, metric, and baryonic modeling, and that free-exponent fits with propagated uncertainties are the next necessary test.

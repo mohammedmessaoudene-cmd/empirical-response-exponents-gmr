@@ -1,0 +1,14 @@
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.fls
+*.fdb_latexmk
+__pycache__/
+.DS_Store
+Thumbs.db
