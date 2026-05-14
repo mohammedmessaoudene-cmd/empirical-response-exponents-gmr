@@ -1,0 +1,333 @@
+    Empirical Response Exponents and Geometric-Medium Information in Galaxy Rotation Curves
+                                                  Mohammed Messaoudene1
+1 Faculty of Sciences, Belhadj Bouchaib University of Ain Temouchent, Route of Sidi Bel Abbes, BP 284, 46000 Ain Temouchent, Algeria
+
+
+
+                                                           ABSTRACT
+            Galaxy rotation curves measure a single radial acceleration, but that scalar need not come from a
+         single physical channel. I use a channel-aware response framework in which the Newtonian baryonic
+         source and the inferred dark or geometric response are distinct contributions projected onto the
+         observed rotation curve. The parent form introduces an internal alignment κ = cos θint and a response
+                                 p                                                                      p
+         amplitude gχ = Aχ gN      ; the empirical tests use the projected closure gtot = gN + Aeﬀ gN     . This
+         response-exponent view is compared with a fixed Geometric-Medium Response (GMR) prescription
+         tested on SPARC. GMR contains a square-root response core, although a pure square-root control
+         remains slightly better on the main SPARC equal-weight RMSE benchmark. The GMR construction
+         is nevertheless useful: it is competitive with baryons-only, MOND, and reduced NFW in that aggregate
+         metric, its cumulative state improves over a local-state ablation, and its failures identify low-density
+         dwarf and low-surface-brightness systems as the principal tension. Direct LSB mass models favor a fixed
+         p ≃ 0.298 comparison branch, whereas LITTLE THINGS proxy and validated vector-recovered subsets
+         lean toward p = 0.5 without decisive significance. These results do not define a universal exponent
+         and do not solve the dark-sector problem. They instead show that the projected response branch
+         is sensitive to data set, metric, and baryonic modeling, and that free-exponent fits with propagated
+         uncertainties are the next necessary test.
+
+
+         Keywords: Galaxy rotation curves (619) — Disk galaxies (391) — Dwarf galaxies (416) — Low surface
+                   brightness galaxies (940) — Dark matter (353) — Astrostatistics (1882)
+
+                   1. INTRODUCTION                                    as a measured property of the projected response
+   The discrepancy between observed galaxy rotation                   channel. The exponent is not introduced as a new
+curves and the acceleration expected from visible matter              law by itself.    It is a concise way to ask how
+is one of the clearest empirical entry points into the                the inferred non-baryonic acceleration scales with the
+dark-sector problem (Rubin & Ford 1970; Rubin et al.                  baryonic source once the metric, calibration, and data
+1980; Bosma 1981; Begeman et al. 1991; Sofue & Rubin                  provenance have been fixed.
+2001). SPARC placed that question on a homogeneous                              2. CHANNEL-AWARE RESPONSE
+footing by combining resolved rotation curves with
+                                                                        The organizing idea is that two quantities can both
+infrared photometry and baryonic mass models for 175
+                                                                      have the dimensions of acceleration without belonging
+disk galaxies (Lelli et al. 2016). The same data set also
+                                                                      to the same physical channel. Let gN denote the
+sharpened the radial-acceleration relation and baryonic
+                                                                      Newtonian baryonic source amplitude and gχ the
+Tully-Fisher relation (McGaugh et al. 2016; Lelli et al.
+                                                                      inferred response amplitude. In an internal response
+2017; McGaugh 2012). A useful phenomenological
+                                                                      space,
+question is therefore not only which model fits, but what
+kind of baryonic information a missing-response model                    Gtot = gN eb + gχ eχ ,       eb · eχ = κ = cos θint .   (2)
+is actually using.
+   I therefore treat the exponent in a response law,                  The observable norm is then
+                                                                                       2      2
+                                                                                      gtot = gN + gχ2 + 2κgN gχ .                (3)
+                                  p
+                        gresp = AgN ,                      (1)        With
+                                                                                                         p
+                                                                                              g χ = Aχ g N ,                     (4)
+Corresponding author: Mohammed Messaoudene                            one obtains
+mohammed.messaoudene@univ-temouchent.edu.dz                                           [                         ]1/2
+                                                                                        2        2p         p+1
+                                                                                gtot = gN + A2χ gN  + 2κAχ gN        .           (5)
+                                                                      Figure 2. The GMR modulation factor is not constant. The
+Figure 1.       Schematic hierarchy of the channel-aware              fixed prescription contains a square-root core but also tests
+response idea. The scalar law tested here is the radial               whether baryonic invariants add predictive information.
+projection of a response-channel model, not the full theory.
+                                                                      The radial samples are sorted by increasing Ri
+The tests below use the effective radial projection                   before this cumulative state is evaluated; ∆Rj is
+                                                                      the adjacent radial spacing in that ordered profile.
+                                     p
+                    gtot = gN + Aeﬀ gN .                    (6)       The implementation tested here treats this as a
+                                                                      first-order cumulative radial feature, not as a high-order
+For gχ /gN ≪ 1 and approximately constant κ, Eq. (5)                  quadrature estimate of a unique continuum integral.
+                            p                     2p−1
+expands as gtot = gN + κAχ gN  + 12 (1 − κ2 )A2χ gN    +· · · .       The comparison therefore tests this specific ordered
+Thus Aeﬀ is not assumed to be Aχ ; it equals κAχ only                 feature and does not claim invariance under alternative
+at leading order in this restricted projection. If κ or               radial integration rules.
+Aχ varies with environment, the fitted p is an effective
+                                                                                                     Qenc (Ri )
+response exponent. In the fits below, Aeﬀ is only the                                 SΨ (Ri ) =                   .              (11)
+amplitude of the projected scalar closure. The analysis                                            Q∗ + Qenc (Ri )
+does not separate κ from Aχ , and does not infer either               The response angle and suppression factor are
+quantity independently. The variables κ and θint remain                                        [                        ]
+                                                                                                 AB (Ri ) + ηS SΨ (Ri )
+parent-geometry variables.                                                   αB (Ri ) = arctan                            ,       (12)
+                                                                                                     1 + CB (Ri )
+                                                                                                                         −1
+        3. THE FIXED GMR PRESCRIPTION                                           Srad (Ri ) = [1 + λs νB (Ri )CB (Ri )]        .   (13)
+  The fixed GMR prescription turns several                            The response acceleration is
+baryonic-geometry quantities into a response operator.                                                    √
+                                                                       gχGMR (Ri ) = AGMR sin αB (Ri )        gN (Ri )Srad (Ri ). (14)
+It uses local tidal and curvature information. Here
+Tij = ∂i ∂j ϕB is the baryonic tidal tensor and ∥T ∥ is its           Thus the prescription contains a square-root core but
+Frobenius norm. The scalar |∇2 ϕB | is the magnitude                  is not identical to a pure square-root law: the factor
+of the baryonic Laplacian; the small floor ϵA carries the             sin αB Srad carries the tested geometric information.
+same denominator units. With this convention AB is                    The grid used here has AGMR = 1.39458 × 10−5
+a dimensionless local anisotropy measure rather than a                and λs = 10.0. In the rotation-curve convention
+new acceleration scale:                                               used for the calculations, accelerations are stored
+                                                                      as g = V 2 /R with V in km s−1 and R in kpc;
+                                ∥T (R)∥
+                AB (R) =                     ,              (7)       hence g has units km2 s−2 kpc−1 and AGMR has units
+                           |∇2 ϕ B (R)| + ϵA                          km s−1 kpc−1/2 . These values are kept fixed in the
+                                                                      external response-exponent comparisons.
+                             ℓ∗ |∇2 ϕB (R)|
+           CB (R) =                              1/2
+                                                       ,    (8)              4. DATA SETS AND EVIDENCE TIERS
+                       [(∂R ϕB )2 + A2∗ + ϵC ]
+                                                                        The analysis keeps four evidence tiers separate.
+where ϵC has the dimensions of the squared radial-field
+                                                                      SPARC is the main internal benchmark. A public
+term in the bracket. The bounded local tracer is
+                                                                      low-surface-brightness sample provides a small but
+                          AB (R) + CB (R)                             direct component test with explicit gas, disk, and bulge
+             νB (R) =                       .               (9)       velocities (de Blok et al. 2001). LITTLE THINGS
+                        1 + AB (R) + CB (R)
+                                                                      is used in two more cautious ways: as a proxy
+Its non-local state is cumulative:                                    based on public total and dark-matter curves, and as
+                            ∑                                         a vector-recovered component subset from published
+               Qenc (Ri ) =   νB (Rj )∆Rj ,                (10)       mass-model figures (Hunter et al. 2012; Oh et al. 2015).
+                             j≤i
+
+                                                                  2
+         Tier       Data    Input              Role                                Sample     Model       EW     Median   Win
+
+         Internal   SPARC   mass models        main                                full       GMR       40.554   16.167       –
+         Direct     LSB     components         external                            full       Baryons   69.316   42.879   0.886
+         Proxy      LT        2
+                            Vtot − VDM
+                                     2
+                                               stress test                         full       MOND      44.907   28.160   0.726
+         Vector     LT      vector-recovered   appendix caveat                     full       NFW       46.613    8.401   0.320
+                                                                                   full       ISO       20.316    4.919   0.074
+Table 1. Evidence tiers. Proxy/vector quantities are not                           full       Burkert   25.862    5.646   0.086
+oﬀicial component tables.                                                          held-out   GMR       41.870   16.033       –
+                                                                                   held-out   Baryons   71.026   42.879   0.874
+                                                                                   held-out   MOND      45.366   28.352   0.715
+          4.1. Response-exponent estimation                                        held-out   NFW       48.450    9.307   0.338
+                                                                                   held-out   ISO       20.869    4.770   0.079
+  For a fixed exponent p, the projected scalar control is                          held-out   Burkert   27.081    5.522   0.093
+                                  p
+evaluated as gmodel = gN + Ap gN     and converted to a
+                                                                     Table 2. SPARC metrics in km s−1 . Win is the GMR win
+circular-speed prediction at each tabulated radius. The
+                                                                     rate against the listed comparator. Cored halo baselines
+displayed comparisons hold two branches fixed: SQRT                  remain stronger empirical fits overall.
+uses p = 0.5, while FREEP uses p ≃ 0.298. The
+latter value comes from the internal OMEGA/SPARC
+calibration track, where a one-parameter power-law
+family was scanned under the equal-weight galaxy
+RMSE objective after fitting the amplitude for each fixed
+exponent. Here it serves only as a comparison branch.
+It is not re-estimated for each external sample, and no
+independent physical constant is assigned to it. Unless a
+table states otherwise, the objective is the equal-weight
+galaxy RMSE,
+                       [                   ]1/2
+                           1 ∑           2
+           RMSEEW =               RMSEg         ,     (15)
+                         Ngal g                                      Figure 3. SPARC aggregate comparison. The fixed
+                                                                     response has non-trivial aggregate behavior, but it does not
+with RMSEg computed from the radial velocity residuals               beat SQRT or the cored halo baselines.
+of galaxy g. Observation-weighted RMSE is reported
+separately where available. The external comparison                  GMR has a full-sample Nobs -weighted RMSE of 57.334
+table gives fixed-branch tests rather than new per-galaxy            km s−1 , whereas MOND gives 52.224 km s−1 . The
+free-p fits. In particular, the phrase “the p ≃ 0.298                response prescription is therefore best viewed as a
+branch” denotes a fixed model-comparison branch, not                 structured constraint. The tabulated RMSE values
+an independent measurement of p = 0.298 in every data                are point estimates; a complete set of per-model
+set.                                                                 galaxy-bootstrap intervals is not included here.
+                5. SPARC BENCHMARK                                                  5.1. Ablations and leverage
+   On the full SPARC sample, the square-root control                   The cumulative state variable matters within the
+has an equal-weight RMSE of 40.241 km s−1 , while                    GMR family. Replacing it by a local state gives 47.683
+fixed GMR gives 40.554 km s−1 . On the non-calibration               km s−1 on the full sample and 49.398 km s−1 on the
+complement, the corresponding values are 41.329 and                  held-out subset, substantially worse than the cumulative
+41.870 km s−1 . The tested GMR invariants therefore do               prescription. This does not overturn the square-root
+not improve the main equal-weight benchmark beyond                   comparison, but it shows that the cumulative term
+the simpler square-root response.                                    carries measurable information.
+   These numbers resist a simple success-or-failure                    The SPARC aggregate is also leverage-sensitive.
+reading. In the equal-weight aggregate alone, the fixed              Some large residual improvements occur in a finite
+GMR prescription has lower RMSE than baryons-only,                   set of galaxies, while reduced NFW wins for the
+MOND, and reduced NFW. Galaxy by galaxy, however,                    majority of individual systems. For that reason the
+reduced NFW keeps the smaller median residual and                    analysis reports aggregate RMSE, median residual,
+higher win rate, while reduced ISO and Burkert                       win rates, observation-weighted metrics, and class
+remain stronger empirical halo prescriptions overall.                stress together.      In the class-stress table, the
+Observation-weighted scoring also changes the ordering:              GMR-over-NFW win fractions are 41/77 for bulge-rich
+
+                                                                 3
+Figure 4.    Bootstrap summary for the fixed SPARC
+comparisons. Several effects are descriptive rather than
+decisive.
+
+high-surface-brightness systems (0.532; Wilson 95%
+interval 0.422–0.640), 11/81 for low-mass dwarfs (0.136;
+0.078–0.227), and 4/17 for ordinary disks (0.235;
+0.096–0.473).
+
+      6. RAR, BTFR, AND FAILURE MODES
+   The RAR and BTFR checks are within-sample
+consistency tests. The binned RAR curve gives a
+log-space RMSE of 0.0640 for fixed GMR. It is not                Figure 5. Binned RAR diagnostic used as a within-sample
+used as a literature-level comparison against other              consistency check.
+acceleration-law implementations. The BTFR proxy
+slope is 3.687 against an observed 3.486, with broader
+scatter, 0.285 dex rather than 0.225 dex. The result is
+slope-consistent but not scatter-matching.
+   The clearest weakness of the fixed GMR prescription
+is the low-mass dwarf and low-surface-brightness regime.
+In the low-mass-dwarf slice, GMR reaches 15.523 km s−1 ,
+while reduced NFW and ISO give 6.880 and 4.478
+km s−1 . Ordinary disks remain diﬀicult, and several
+high-leverage failures are not dwarfs, so the failure mode
+is principal rather than exclusive.
+
+  7. RESPONSE EXPONENT ACROSS REGIMES
+   The exponent comparison is mixed.              SPARC
+equal-weight metrics and the direct LSB component
+sample favor the fixed p ≃ 0.298 branch. LITTLE
+THINGS proxy tests and the validated vector-recovered
+subset lean toward p = 0.5.             The rows below           Figure 6. BTFR diagnostic. The proxy is slope-consistent
+are fixed-branch comparisons rather than per-galaxy              but broader in scatter than the observed relation.
+exponent fits: SQRT fixes p = 0.5, FREEP fixes
+p ≃ 0.298 from the internal calibration track, and                 The vector-recovered subset is kept conservative.
+the quoted objective is equal-weight per-galaxy RMSE             Seventeen galaxies pass validation, including fifteen
+unless stated otherwise. Because the external evidence           GOLD and two SILVER cases.             The validation
+combines direct component tables, proxy curves, and              gate is independent of the SQRT/FREEP comparison:
+vector-recovered components, it cannot provide a single          accepted cases reproduce the published reference curves
+robust posterior interval for a universal p. A full              well enough to be used, while rejected cases either
+per-data-set fit of (Ap , p) with uncertainty propagation        fail that check or lack a matched dark-matter curve.
+is needed before the exponent itself can be treated as           SQRT wins eleven of the seventeen, with 16.446 km s−1
+measured separately in each regime.                              versus 16.570 km s−1 for FREEP. A paired sign test
+
+                                                             4
+Figure 7. Class-stress comparison. Dwarf and low-density             Figure 9. Per-galaxy delta distribution for the validated
+systems remain the sharpest empirical tension for the fixed          vector-recovered LITTLE THINGS subset. The SQRT edge
+GMR prescription.                                                    is visible but statistically weak.
+
+
+ Data                 N    SQRT     FREEP      Fav.   Status         LITTLE THINGS proxy curves, and vector-recovered
+ SPARC full          175   40.241   39.085   FREEP    internal
+                                                                     dwarf-galaxy components.
+ SPARC holdout       151   41.329   40.322   FREEP    internal          The channel-aware interpretation is compatible with
+ LSB direct            8   18.772   16.607   FREEP    small N        this behavior, although the data alone cannot establish
+ LT proxy drop        22   17.622   18.487    SQRT    proxy          it.   A projected exponent can absorb changes in
+ LT proxy clamp       22   17.791   18.615    SQRT    proxy
+ LT vector subset     17   16.446   16.570    SQRT    weak
+                                                                     baryonic structure, gas dominance, stellar mass-to-light
+                                                                     assumptions, response alignment, and metric weighting.
+Table 3. Response-exponent evidence map. RMSE values                 A deeper theory may still contain a more restrictive
+are in km s−1 . The vector-recovered LITTLE THINGS row               exponent, but the present evidence has not isolated one.
+is directional, not decisive.
+                                                                           9. LIMITATIONS AND FALSIFIABILITY
+                                                                       The scope is narrower than a dark-sector solution:
+                                                                     cluster lensing, cosmology, Solar-System screening, and
+                                                                     a closed action are outside the present analysis. The
+                                                                     LITTLE THINGS component curves used here are
+                                                                     vector-recovered from published figures, not oﬀicial
+                                                                     machine-readable Vgas /Vdisk /Vbulge tables in the CDS
+                                                                     products. The direct LSB sample is small; the SPARC
+                                                                     free-exponent result is internal and metric-dependent;
+                                                                     the RMSE tables lack a full galaxy-bootstrap interval
+                                                                     for every comparator; and the summary lacks a full
+                                                                     error-weighted χ2 reanalysis. The cumulative Qenc
+Figure 8. Dataset dependence of SQRT versus FREEP.                   feature is also a first-order ordered radial sum, not a
+Positive values favor FREEP; negative values favor SQRT.             grid-invariant continuum functional.
+                                                                       The channel-aware equations are therefore a
+gives p = 0.332; a galaxy-resampling bootstrap for the               nonrelativistic phenomenological parent, not a
+aggregate SQRT-minus-FREEP RMSE difference gives                     completed relativistic gravity theory. Any completion
+a 95% interval of [−1.76, +1.36] km s−1 and P (∆ <                   must satisfy post-Newtonian and Solar-System
+0) = 0.609. This is a weak directional result. It is                 constraints, including Cassini-level bounds, and
+consistent with the LITTLE THINGS proxy split, but                   must provide screening or decoupling before the same
+it is too small and too uncertain to support a universal             response law is extrapolated outside galaxy rotation
+law. Rejected galaxies are left outside the sample.                  curves (Bertotti et al. 2003; Will 2014; Khoury &
+                                                                     Weltman 2004). The decisive empirical test is to obtain
+                    8. INTERPRETATION                                oﬀicial or independently published direct LITTLE
+  The fixed-branch comparisons suggest regime                        THINGS or THINGS component tables and repeat
+sensitivity in the projected response branch, although               the no-retuning comparison. A stronger statistical
+they stop short of measuring it as a fitted physical                 treatment should also provide the full fixed-exponent
+parameter.       The same one-parameter projection                   scan, error-weighted residual metrics, and bootstrap
+behaves differently in SPARC, direct LSB mass models,                intervals for the principal RMSE comparisons.
+
+                                                                 5
+               10. DATA AVAILABILITY                                improve the main SPARC equal-weight RMSE beyond
+  This preprint uses published SPARC, LITTLE                        a pure square-root control, but the cumulative state
+THINGS, and LSB rotation-curve material.              The           beats a local-state ablation and the comparison remains
+original survey files remain in their public archives and           informative against baryons-only, MOND, and reduced
+should be cited through the source papers. I provide                NFW. Cored halo baselines remain stronger overall,
+only the derived LITTLE THINGS validation table for                 and the dwarf/LSB regime is the main failure mode.
+the vector-recovered subset. That table records which                 The response-exponent comparison adds a second
+galaxies passed the recovery checks; it is not an oﬀicial           layer. SPARC and direct LSB tests favor the fixed
+survey catalogue.                                                   p ≃ 0.298 comparator, while LITTLE THINGS proxy
+                                                                    and vector-recovered subsets lean toward p = 0.5
+                                                                    without decisive significance.     The fixed projected
+                   11. CONCLUSIONS                                  branches are empirically distinguishable in the present
+  The      fixed   GMR      prescription    defines   a             comparisons; true regime dependence of the fitted
+baryonic-invariant response architecture with an                    exponent remains a hypothesis requiring free-p fits and
+explicit square-root core. Its tested invariants do not             propagated uncertainties.
+
+                                                          APPENDIX
+
+
+                        A. VECTOR-RECOVERED LITTLE THINGS VALIDATION SUBSET
+  The LITTLE THINGS vector-recovered check uses 17 accepted galaxies. For each system, the accompanying table
+gives the validation class, the number of radial points, and the SQRT/FREEP RMSE values entering the aggregate
+comparison. Nine systems fail the validation gate or lack a matched dark-matter curve and are kept outside the
+accepted subset. The recovered curves show what can be read from the published figures; they are not an oﬀicial
+LITTLE THINGS component catalogue.
+
+
+                                                        REFERENCES
+Begeman, K. G., Broeils, A. H., & Sanders, R. H. 1991,              McGaugh, S. S. 2012, AJ, 143, 40
+  MNRAS, 249, 523
+                                                                    McGaugh, S. S., Lelli, F., & Schombert, J. M. 2016,
+Bertotti, B., Iess, L., & Tortora, P. 2003, Nature, 425, 374,
+                                                                      Physical Review Letters, 117, 201101
+  doi: 10.1038/nature01997
+Bosma, A. 1981, AJ, 86, 1791                                        Oh, S.-H., Hunter, D. A., Brinks, E., et al. 2015, AJ, 149,
+de Blok, W. J. G., McGaugh, S. S., & Rubin, V. C. 2001,               180
+  AJ, 122, 2396
+                                                                    Rubin, V. C., & Ford, W. K. 1970, ApJ, 159, 379
+Hunter, D. A., Ficut-Vicas, D., Ashley, T., et al. 2012, AJ,
+  144, 134                                                          Rubin, V. C., Ford, W. K., & Thonnard, N. 1980, ApJ, 238,
+Khoury, J., & Weltman, A. 2004, Physical Review Letters,              471
+  93, 171104, doi: 10.1103/PhysRevLett.93.171104                    Sofue, Y., & Rubin, V. 2001, ARA&A, 39, 137
+Lelli, F., McGaugh, S. S., & Schombert, J. M. 2016, AJ,
+                                                                    Will, C. M. 2014, Living Reviews in Relativity, 17, 4,
+  152, 157
+Lelli, F., McGaugh, S. S., Schombert, J. M., & Pawlowski,             doi: 10.12942/lrr-2014-4
+  M. S. 2017, ApJ, 836, 152
+
+
+
+
+                                                                6
+
