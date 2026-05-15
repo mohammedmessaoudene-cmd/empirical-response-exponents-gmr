@@ -5,6 +5,8 @@ This repository contains the files for the preprint:
 **Empirical Response Exponents and Geometric-Medium Information in Galaxy Rotation Curves**  
 Mohammed Messaoudene
 
+Zenodo DOI: [10.5281/zenodo.20174718](https://doi.org/10.5281/zenodo.20174718)
+
 ## Status
 
 This is an arXiv-ready preprint prepared for author review and public circulation. It is **not** presented as a final journal-accepted version.
@@ -44,7 +46,7 @@ Before a prestige-journal submission, the following upgrades remain necessary:
 2. Error-weighted residual or reduced-\(\chi^2\) checks using radial velocity uncertainties.
 3. Bootstrap intervals for the principal RMSE comparisons.
 4. Broader direct-component external validation.
-5. DOI-backed reproducibility archive.
+5. Additional direct-component validation and journal-level statistical review.
 
 ## License
 

@@ -21,6 +21,15 @@
   ],
   "license": "cc-by-4.0",
   "version": "0.1.2",
+  "doi": "10.5281/zenodo.20174718",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/mohammedmessaoudene-cmd/empirical-response-exponents-gmr",
+      "relation": "isSupplementedBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
   "language": "eng",
   "communities": []
 }
